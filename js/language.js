@@ -34,7 +34,6 @@ function changeLanguage(lang)
             document.getElementById("homebutton").childNodes[1].nodeValue = JSON.stringify(data.menu.homebutton).replace(/"/g, '');
             document.getElementById("gamesbutton").childNodes[1].nodeValue = JSON.stringify(data.menu.gamesbutton).replace(/"/g, '');
             document.getElementById("modelsbutton").childNodes[1].nodeValue = JSON.stringify(data.menu.modelsbutton).replace(/"/g, '');
-            document.getElementById("soundtracksbutton").childNodes[1].nodeValue = JSON.stringify(data.menu.soundtracksbutton).replace(/"/g, '');
             document.getElementById("contactbutton").childNodes[1].nodeValue = JSON.stringify(data.menu.contactbutton).replace(/"/g, '');
             document.getElementById("languagebutton").childNodes[1].nodeValue = JSON.stringify(data.menu.languagebutton).replace(/"/g, '');
 
@@ -60,7 +59,6 @@ function changeLanguage(lang)
 
             document.getElementById("visualstudio-modal").innerHTML = JSON.stringify(data.skills.visualstudio.modal).replace(/"/g, '');
             document.getElementById("blender-modal").innerHTML = JSON.stringify(data.skills.blender.modal).replace(/"/g, '');
-            document.getElementById("famistudio-modal").innerHTML = JSON.stringify(data.skills.famistudio.modal).replace(/"/g, '');
             document.getElementById("html-modal").innerHTML = JSON.stringify(data.skills.html.modal).replace(/"/g, '');
             document.getElementById("css-modal").innerHTML = JSON.stringify(data.skills.css.modal).replace(/"/g, '');
             document.getElementById("bootstrap-modal").innerHTML = JSON.stringify(data.skills.bootstrap.modal).replace(/"/g, '');
@@ -85,11 +83,7 @@ function changeLanguage(lang)
             document.getElementById("models-title").innerHTML = JSON.stringify(data.models.title).replace(/"/g, '');
             document.getElementById("models-description").innerHTML = JSON.stringify(data.models.description).replace(/"/g, '');
             document.getElementById("seemoremodels").innerHTML = JSON.stringify(data.models.seemoremodels).replace(/"/g, '');
-
-            document.getElementById("soundtracks-title").innerHTML = JSON.stringify(data.soundtracks.title).replace(/"/g, '');
-            document.getElementById("soundtracks-description").innerHTML = JSON.stringify(data.soundtracks.description).replace(/"/g, '');
-            document.getElementById("listentomoretracks").innerHTML = JSON.stringify(data.soundtracks.listentomoretracks).replace(/"/g, '');
-
+            
             document.getElementById("contact-title").innerHTML = JSON.stringify(data.contact.title).replace(/"/g, '');
             document.getElementById("contact-description").innerHTML = JSON.stringify(data.contact.description).replace(/"/g, '');
             document.getElementById("contact-form").innerHTML = JSON.stringify(data.contact.contactform).replace(/"/g, '');
