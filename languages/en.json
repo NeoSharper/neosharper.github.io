@@ -58,6 +58,10 @@
         "pixel2d": {
             "description": "Pixel 2D Platformer is a simple 2D platformer game where you pass through enemies and obstacles to progress to the next level.<br>It's my first game to publish on the Play Store."
         },
+        "tilepuzzle":
+        {
+            "description": "Tile Puzzle Ultimate is a 3x3 puzzle where you must organize the numbers sequentially by simply moving the piece horizontally and vertically."
+        },
         "sharperfps": {
             "description": "This is a first-person shooter game where your goal is to eliminate all soldiers in the level with your only three weapons."
         },

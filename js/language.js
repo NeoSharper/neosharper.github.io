@@ -67,6 +67,7 @@ function changeLanguage(lang)
             document.getElementById("games-description").innerHTML = JSON.stringify(data.games.description).replace(/"/g, '');
 
             document.getElementById("pixel2d").innerHTML = JSON.stringify(data.games.pixel2d.description).replace(/"/g, '');
+            document.getElementById("tilepuzzle").innerHTML = JSON.stringify(data.games.tilepuzzle.description).replace(/"/g, '');
             document.getElementById("sharperfps").innerHTML = JSON.stringify(data.games.sharperfps.description).replace(/"/g, '');
             document.getElementById("piecearena").innerHTML = JSON.stringify(data.games.piecearena.description).replace(/"/g, '').replace(/\\/g, '');
             document.getElementById("csjmultiplayer").innerHTML = JSON.stringify(data.games.csjmultiplayer.description).replace(/"/g, '');

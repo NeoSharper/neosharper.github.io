@@ -58,6 +58,10 @@
         "pixel2d": {
             "description": "Pixel 2D Platformer é um jogo 2D de plataforma simples onde você passa por inimigos e obstáculos para passar de nível.<br>É o meu primeiro jogo a eu publicar na Play Store."
         },
+        "tilepuzzle":
+        {
+            "description": "Tile Puzzle Ultimate tem como objetivo resolver um puzzle 3x3 onde você deve organizar os números de forma sequencial apenas movendo a peça na horizontal e vertical."
+        },
         "sharperfps": {
             "description": "Este é um jogo de tiro em primeira pessoa, onde seu objetivo é eliminar todos os soldados do nível com suas únicas três armas."
         },
